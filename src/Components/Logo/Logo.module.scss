@@ -1,0 +1,14 @@
+@import '../../styles/fonts.module.scss';
+
+
+.root {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    &Text {
+        font-family: $chakra-fonts-heading;
+        margin-left: 16px;
+    }
+}

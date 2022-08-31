@@ -1,0 +1,40 @@
+@import '../../styles/fonts.module.scss';
+@import '../../styles/colours.module.scss';
+@import '../../styles/properties.module.scss';
+
+
+.root {
+    background-color: $white-backgroud;
+    padding: 18px 16px 24px 16px;
+    border-radius: 14px;
+    display: flex;
+    height: fit-content;
+    margin-bottom: 24px;
+    @include border;
+
+
+}
+
+.stripHeadings {
+    margin-left: 24px;
+}
+
+.description {
+    display: none;
+
+    &Expanded {
+        display: flex;
+    }
+
+
+}
+
+.name {
+    @include heading-bold-large;
+    margin-bottom: 8px;
+}
+
+.headline {
+    @include body-normal-large;
+    margin-bottom: 16px;
+}

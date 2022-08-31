@@ -1,0 +1,6 @@
+@import './colours.module.scss';
+
+@mixin border {
+    border-radius: 14px;
+    border: 2px solid $pure-black;
+}

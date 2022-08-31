@@ -1,0 +1,7 @@
+@import './breakPoints.module.scss';
+
+@mixin largeScreen {
+    @media (min-width: #{$large-screen}) {
+        @content;
+    }
+}

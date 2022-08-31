@@ -1,0 +1,18 @@
+@import '../../styles/mediaQueries.scss';
+
+.root {
+
+
+    width: 100%;
+
+    @include largeScreen {
+        width: 450px;
+    }
+}
+
+.linkMargin {
+    width: 100%;
+
+
+
+}
