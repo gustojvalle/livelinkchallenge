@@ -2,17 +2,17 @@
 
 .avatarImage {
 
-    max-height: 98px;
+    max-height: 76px;
 
     object-fit: cover;
 
     // max-width: 128px;
 
     &Wrapper {
-        height: 98px;
+        height: 76px;
         border-radius: 99999px;
-        min-width: 98px;
-        width: 98px;
+        min-width: 76px;
+            width: 76px;
         overflow: hidden;
         display: flex;
         align-items: center;
